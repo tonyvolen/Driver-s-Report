@@ -15,19 +15,19 @@ By analyzing the data visually and statistically, this project seeks to uncover 
 ## Data Preparation
 In this project, the dataset was thoroughly cleaned and preprocessed to ensure its quality before conducting any analysis. The following steps were performed as part of the data cleaning process:
 
-1. Checking for Duplicates:
+#### 1. Checking for Duplicates:
 We checked for duplicate records in the dataset using the duplicated() method. The result indicated that there are no duplicates in the dataset, confirming that each row represents a unique driver.
 
-2. Checking for Missing Values:
+#### 2. Checking for Missing Values:
 Missing values were checked using the isnull() method. The analysis revealed that there are no missing values in any of the columns, ensuring that the dataset is complete and ready for further analysis.
 
-3. Checking Data Types:
+#### 3. Checking Data Types:
 The data types of each column were verified using the dtypes method. All columns have the appropriate data types, ensuring that the dataset is properly structured for analysis. For example, numerical values (such as age, years of experience, and ratings) are correctly recognized as numerical data types.
 
-4. Dataset Information:
+#### 4. Dataset Information:
 The info() method was used to gather an overview of the dataset, which confirmed that it contains 100 rows and 7 columns. All columns contain valid data, and the dataset is free from issues like incorrect data types or missing values.
 
-5. Shape of the Dataset:
+#### 5. Shape of the Dataset:
 The dataset's shape was checked using the shape method, which confirmed that it contains 100 rows and 7 columns, providing a manageable size for analysis.
 
 ## Exploratory Data Analysis
