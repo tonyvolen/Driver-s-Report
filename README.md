@@ -59,6 +59,7 @@ A pie chart displayed the proportion of active versus inactive drivers, revealin
 ## Data Analysis
 
 The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing. The key findings and conclusions are as follows:
+
 Statistical Analysis:
 
 A hypothesis test was conducted to evaluate whether drivers aged 40 and above have higher average ratings compared to those under 40. The null hypothesis proposed that older drivers would have higher ratings, while the alternative hypothesis suggested the opposite.
@@ -70,18 +71,15 @@ The distribution of experience years showed that many drivers have a relatively 
 
 ## Findings
 
-Relationships Between Variables:
+- Relationships Between Variables:
 
 There is no significant correlation between age and years of experience, as confirmed by both the scatter plot and the heatmap. This suggests that older drivers do not necessarily have more years of experience and vice versa.
 Other variables in the dataset also show low correlations, indicating that drivers' ratings, experience, and age are not strongly interdependent.
-Activity Status:
 
-Approximately 55% of the drivers are active, while 45% are inactive. This indicates a fairly balanced proportion of active versus inactive drivers in the dataset.
-Hypothesis Testing:
+- Hypothesis Testing:
 
 A hypothesis test comparing the average ratings of drivers aged 40 and above with those below 40 showed that there is no significant difference between the two groups. The null hypothesis, which suggested that older drivers would have higher ratings, was rejected based on the test results (t-statistic = 2.13, p-value = 0.035). This finding suggests that age does not significantly affect a driver's rating.
-Conclusion
-The findings from the data analysis provide a detailed understanding of the drivers' dataset. While most drivers receive high ratings, there is no significant difference in ratings based on age, and experience levels vary across the dataset. The lack of strong correlations between the variables suggests that factors like age and experience do not directly influence each other or the average ratings. These insights can inform future decisions regarding driver recruitment, performance evaluation, and operational strategies.
+
 
 ## Conclusion
 
