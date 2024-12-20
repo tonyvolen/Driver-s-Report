@@ -1,4 +1,4 @@
-# Drivers Data Analysis Report
+![image](https://github.com/user-attachments/assets/d451b73b-2b03-4967-82b4-672049289b1a)![image](https://github.com/user-attachments/assets/24b05a22-a1a7-4194-b765-feb70cb1729f)![image](https://github.com/user-attachments/assets/e3154c79-9d72-4380-802f-4b02f2aa9d19)![image](https://github.com/user-attachments/assets/9f10b4e7-a08c-48b0-8a74-c97ba5fae6a3)![image](https://github.com/user-attachments/assets/962dff78-43ac-40e8-89ec-1521c130ca72)![image](https://github.com/user-attachments/assets/227dd52c-4b82-4202-91f0-b2188b05c50b)# Drivers Data Analysis Report
 
 ## Project Overview
 The aim of this project is to explore and analyze a dataset containing detailed information about drivers, including their age, city, years of experience, average rating, and active status. This data provides valuable insights into the profiles of drivers, offering opportunities to identify patterns and trends that could inform decision-making processes in areas such as driver recruitment, rating systems, and operational strategies.
@@ -35,20 +35,30 @@ The dataset's shape was checked using the shape method, which confirmed that it 
 
 ## Exploratory Data Analysis
 
-In this project, the exploratory data analysis (EDA) was performed to better understand the dataset and uncover meaningful patterns and insights. The following key steps were taken during the EDA process:
+In this project, the exploratory data analysis was performed to better understand the dataset and uncover meaningful patterns and insights. The following key steps were taken during the EDA process:
 
 #### 1. Distribution of Driver’s Age:
 A QQ plot of the drivers' age revealed that the data is not normally distributed, as the points did not align with the diagonal line. This suggests that the distribution of ages does not follow a typical bell curve.
 
+The QQ plot below shows the distribution of driver's age
 ![image](https://github.com/user-attachments/assets/eb4cfaab-c0c9-49a0-b491-b6bfb792ada1)
 
 #### 2. Years of Experience:
+Years of Experience  provides insights into the drivers' performance and how experience might influence their Average Rating or Active Status.
+
 The box plot for years of experience showed a left-skewed distribution, indicating that a larger number of drivers have fewer years of experience. Additionally, the plot did not reveal any outliers, suggesting that the data on experience is relatively consistent.
+
+The box plot below visualizes the distribution of drivers’ years of experience across the dataset
+
 
 ![image](https://github.com/user-attachments/assets/35c3cb0f-b410-4df1-8409-7132b7b44813)
 
 #### 3. Average Rating Distribution:
-The histogram and KDE of the average ratings indicated that most drivers have ratings between 4.8 and 5.0, with a non-symmetric and non-bell-shaped distribution. This indicates that the ratings data is not normally distributed.
+In this dataset, most drivers have high average ratings, with many ratings clustered between 4.8 and 5.0, suggesting that the drivers are generally well-regarded by their customers.
+
+The Histogram below visualizes the distribution of drivers’  average rating across the dataset
+
+
 
 ![image](https://github.com/user-attachments/assets/197392ce-882a-41b9-a67b-697c26294cdb)
 
@@ -60,15 +70,23 @@ The kurtosis value is also negative, indicating that the distribution is platyku
 #### 4. Scatter Plot & Correlation:
 The scatter plot between age and years of experience revealed no clear linear relationship between these two variables. This suggests that there is no direct correlation between a driver’s age and the number of years of experience they have.
 
+The scatter plot below shows the relationship between drivers’ years of experience and their Ages.
+
+
 ![image](https://github.com/user-attachments/assets/c02a7bb9-b81b-49ce-9954-825723b3ea8a)
 
 The heatmap further confirmed that there is a low correlation among the various variables in the dataset, indicating that none of the features are strongly related to one another.
+
+The heat map below show correlation between the numerical variables of the drivers’ dataset.
 
 ![image](https://github.com/user-attachments/assets/eec9f5df-72f2-4113-bc53-741f60d2a5a0)
 
 
 #### 5.Active Status Distribution:
 A pie chart displayed the proportion of active versus inactive drivers, revealing that 55% of the drivers are active, while 45% are inactive, providing insight into the current activity levels within the dataset.
+
+The below pie chart shows the distribution of drivers’ active status
+
 
 ![image](https://github.com/user-attachments/assets/33e056c3-cacc-4148-b4a3-1b38537a10a4)
 
