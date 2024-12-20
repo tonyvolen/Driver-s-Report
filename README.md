@@ -81,7 +81,25 @@ The skewness of the average ratings is negative, suggesting that the data is ske
 #### - Kurtosis
 The kurtosis value is also negative, indicating that the distribution is platykurtic, meaning it has a short tail and is flatter than a normal distribution.
 
-#### 4. Scatter Plot & Correlation:
+
+
+#### 4.Active Status Distribution:
+A pie chart displayed the proportion of active versus inactive drivers, revealing that 55% of the drivers are active, while 45% are inactive, providing insight into the current activity levels within the dataset.
+
+The below pie chart shows the distribution of drivers’ active status
+
+
+![image](https://github.com/user-attachments/assets/33e056c3-cacc-4148-b4a3-1b38537a10a4)
+
+
+## Data Analysis
+
+
+The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing.
+
+#### Descriptive Statistics
+
+##### - Scatter Plot & Correlation:
 The scatter plot between age and years of experience revealed no clear linear relationship between these two variables. This suggests that there is no direct correlation between a driver’s age and the number of years of experience they have.
 
 The scatter plot below shows the relationship between drivers’ years of experience and their Ages.
@@ -96,22 +114,7 @@ The heat map below show correlation between the numerical variables of the drive
 
 ![image](https://github.com/user-attachments/assets/eec9f5df-72f2-4113-bc53-741f60d2a5a0)
 
-
-#### 5.Active Status Distribution:
-A pie chart displayed the proportion of active versus inactive drivers, revealing that 55% of the drivers are active, while 45% are inactive, providing insight into the current activity levels within the dataset.
-
-The below pie chart shows the distribution of drivers’ active status
-
-
-![image](https://github.com/user-attachments/assets/33e056c3-cacc-4148-b4a3-1b38537a10a4)
-
-
-## Data Analysis
-
-
-The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing. 
-
-#### Hypothesis Testing:
+#### - Hypothesis Testing:
 
 A hypothesis test was conducted to evaluate whether drivers aged 40 and above have higher average ratings compared to those under 40. 
 
