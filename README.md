@@ -13,7 +13,7 @@ The data that was used in this study is Drivers data posted on Kaggle, an online
 
 ## Tools
 
-The project utilized Python for various stages of data analysis, including data cleaning and preprocessing, exploratory data analysis (EDA), and A/B testing. Python's powerful libraries, such as Pandas, were employed to clean and preprocess the data, ensuring it was structured and free of errors or inconsistencies. For exploratory data analysis, Python libraries such as Numpy, Scipy, Matplotlib.pyplot and seaborn were used to generate summary statistics, visualize data distributions, and identify trends. Additionally, Hypothesis testing was conducted to compare the average ratings of drivers.
+The project utilized Python for various stages of data analysis, including data cleaning and preprocessing, exploratory data analysis (EDA), and hypothesis testing. Python's powerful libraries, such as Pandas, were employed to clean and preprocess the data, ensuring it was structured and free of errors or inconsistencies. For exploratory data analysis, Python libraries such as Numpy, Scipy, Matplotlib.pyplot and seaborn were used to generate summary statistics, visualize data distributions, and identify trends. Additionally, Hypothesis testing was conducted to compare the average ratings of drivers.
 
 ## Data Preparation
 In this project, the dataset was thoroughly cleaned and preprocessed to ensure its quality before conducting any analysis. The following steps were performed as part of the data cleaning process:
