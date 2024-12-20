@@ -1,6 +1,16 @@
 # Drivers Data Analysis Report
 
+## Table of Contents
 
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Preparations](#data-preparations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analsis)
+- [Findings](#findings)
+- [Conclusion](#conclusion)
+- [Recommendations](#recommendations)
 ## Project Overview
 
 
