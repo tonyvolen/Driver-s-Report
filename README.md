@@ -1,6 +1,9 @@
 # Drivers Data Analysis Report
 
+
 ## Project Overview
+
+
 The aim of this project is to explore and analyze a dataset containing detailed information about drivers, including their age, city, years of experience, average rating, and active status. This data provides valuable insights into the profiles of drivers, offering opportunities to identify patterns and trends that could inform decision-making processes in areas such as driver recruitment, rating systems, and operational strategies.
 
 Through various exploratory data analysis (EDA) techniques, we investigate the distribution of key variables, such as age and experience, and examine relationships between these factors and the drivers' average ratings. We also apply statistical methods to test hypotheses about the relationship between drivers' age and their ratings.
@@ -9,13 +12,17 @@ By analyzing the data visually and statistically, this project seeks to uncover 
 
 ## Data Source
 
+
 The data that was used in this study is Drivers data posted on Kaggle, an online portal for community of data scientists. The dataset provides insights into drivers' performance and demographic characteristics, with key attributes such as the number of years of experience and the average ratings given to each driver. It also categorizes drivers as "Active" or "Inactive.". The data is structured with a mix of numerical and categorical columns, allowing for various statistical tests and comparisons.
 
 ## Tools
 
+
 The project utilized Python for various stages of data analysis, including data cleaning and preprocessing, exploratory data analysis (EDA), and hypothesis testing. Python's powerful libraries, such as Pandas, were employed to clean and preprocess the data, ensuring it was structured and free of errors or inconsistencies. For exploratory data analysis, Python libraries such as Numpy, Scipy, Matplotlib.pyplot and seaborn were used to generate summary statistics, visualize data distributions, and identify trends. Additionally, Hypothesis testing was conducted to compare the average ratings of drivers.
 
 ## Data Preparation
+
+
 In this project, the dataset was thoroughly cleaned and preprocessed to ensure its quality before conducting any analysis. The following steps were performed as part of the data cleaning process:
 
 #### 1. Checking for Duplicates:
@@ -34,6 +41,7 @@ We gathered an overview of the dataset, which confirmed that it contains 100 row
 The dataset's shape was checked using the shape method, which confirmed that it contains 100 rows and 7 columns, providing a manageable size for analysis.
 
 ## Exploratory Data Analysis
+
 
 In this project, the exploratory data analysis was performed to better understand the dataset and uncover meaningful patterns and insights. The following key steps were taken during the EDA process:
 
@@ -100,6 +108,7 @@ The below pie chart shows the distribution of drivers’ active status
 
 ## Data Analysis
 
+
 The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing. The key findings and conclusions are as follows:
 
 Statistical Analysis:
@@ -113,6 +122,7 @@ The distribution of experience years showed that many drivers have a relatively 
 
 ## Findings
 
+
 - Relationships Between Variables:
 
 There is no significant correlation between age and years of experience, as confirmed by both the scatter plot and the heatmap. This suggests that older drivers do not necessarily have more years of experience and vice versa.
@@ -125,21 +135,23 @@ A hypothesis test comparing the average ratings of drivers aged 40 and above wit
 
 ## Conclusion
 
+
 The findings highlight that while drivers tend to have high ratings, age and experience do not appear to significantly impact their performance or ratings. These insights provide a better understanding of the drivers' profiles and can help guide future decisions related to driver management, performance assessments, and operational strategies. The lack of correlation between key variables also suggests that factors like age and experience may not be the most critical determinants of driver performance, opening the door to exploring other influencing factors in future analyses.
 
 ## Recommendations
 
-#### 1. Explore Additional Factors Affecting Ratings:
-Since there is no significant correlation between age, experience, and ratings, it would be valuable to explore other factors that might influence driver performance and ratings. These could include variables such as driving behavior, customer feedback, location, or work hours. Analyzing these factors could provide a more comprehensive understanding of what drives high ratings.
 
-#### 2. Targeted Training for Inexperienced Drivers:
-Given the left-skewed distribution of years of experience, with many drivers having fewer years of experience, it may be beneficial to implement targeted training programs for less experienced drivers. These programs could focus on improving driving skills and customer service, which could help boost ratings and overall performance.
+1. Explore Additional Factors Affecting Ratings:
+Since there is no significant correlation between age, experience, and ratings, it would be valuable to explore other factors that might influence driver performance and ratings.
 
-#### 3. Investigate Inactive Drivers:
-With 45% of the drivers being inactive, it could be useful to investigate the reasons behind their inactivity. Conducting surveys or interviews with inactive drivers may provide insights into factors such as job satisfaction, work-life balance, or performance issues. This information could help design strategies to re-engage inactive drivers or improve retention.
+2. Targeted Training for Inexperienced Drivers:
+Given the left-skewed distribution of years of experience, with many drivers having fewer years of experience, it may be beneficial to implement targeted training programs for less experienced drivers.
 
-#### 4. Consider Age-Related Preferences in Driver Assignment:
-Although the analysis did not show a significant correlation between age and ratings, other factors, such as preferences or customer demographics, might play a role in driver assignment. It might be useful to explore if certain age groups are preferred by specific types of customers or in particular regions, optimizing assignments based on these preferences.
+3. Investigate Inactive Drivers:
+ Conducting surveys or interviews with inactive drivers may provide insights into factors such as job satisfaction, work-life balance, or performance issues. This information could help design strategies to re-engage inactive drivers or improve retention.
 
-#### 5. Implement a Continuous Feedback System:
-Given the high concentration of drivers with ratings between 4.8 and 5.0, implementing a continuous feedback and performance tracking system could help maintain and improve the quality of service. Regular feedback could help drivers fine-tune their performance, leading to better ratings and higher customer satisfaction over time.
+4. Consider Age-Related Preferences in Driver Assignment:
+Although the analysis did not show a significant correlation between age and ratings, other factors, such as preferences or customer demographics, might play a role in driver assignment.
+
+5. Implement a Continuous Feedback System:
+Given the high concentration of drivers with ratings between 4.8 and 5.0, implementing a continuous feedback and performance tracking system could help maintain and improve the quality of service.
