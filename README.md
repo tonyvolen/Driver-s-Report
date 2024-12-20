@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d451b73b-2b03-4967-82b4-672049289b1a)![image](https://github.com/user-attachments/assets/24b05a22-a1a7-4194-b765-feb70cb1729f)![image](https://github.com/user-attachments/assets/e3154c79-9d72-4380-802f-4b02f2aa9d19)![image](https://github.com/user-attachments/assets/9f10b4e7-a08c-48b0-8a74-c97ba5fae6a3)![image](https://github.com/user-attachments/assets/962dff78-43ac-40e8-89ec-1521c130ca72)![image](https://github.com/user-attachments/assets/227dd52c-4b82-4202-91f0-b2188b05c50b)# Drivers Data Analysis Report
+# Drivers Data Analysis Report
 
 ## Project Overview
 The aim of this project is to explore and analyze a dataset containing detailed information about drivers, including their age, city, years of experience, average rating, and active status. This data provides valuable insights into the profiles of drivers, offering opportunities to identify patterns and trends that could inform decision-making processes in areas such as driver recruitment, rating systems, and operational strategies.
@@ -41,7 +41,10 @@ In this project, the exploratory data analysis was performed to better understan
 A QQ plot of the drivers' age revealed that the data is not normally distributed, as the points did not align with the diagonal line. This suggests that the distribution of ages does not follow a typical bell curve.
 
 The QQ plot below shows the distribution of driver's age
+
+
 ![image](https://github.com/user-attachments/assets/eb4cfaab-c0c9-49a0-b491-b6bfb792ada1)
+
 
 #### 2. Years of Experience:
 Years of Experience  provides insights into the drivers' performance and how experience might influence their Average Rating or Active Status.
@@ -51,7 +54,9 @@ The box plot for years of experience showed a left-skewed distribution, indicati
 The box plot below visualizes the distribution of drivers’ years of experience across the dataset
 
 
+
 ![image](https://github.com/user-attachments/assets/35c3cb0f-b410-4df1-8409-7132b7b44813)
+
 
 #### 3. Average Rating Distribution:
 In this dataset, most drivers have high average ratings, with many ratings clustered between 4.8 and 5.0, suggesting that the drivers are generally well-regarded by their customers.
@@ -61,6 +66,7 @@ The Histogram below visualizes the distribution of drivers’  average rating ac
 
 
 ![image](https://github.com/user-attachments/assets/197392ce-882a-41b9-a67b-697c26294cdb)
+
 
 #### - Skeweness
 The skewness of the average ratings is negative, suggesting that the data is skewed to the left (with more drivers having ratings on the higher end).
@@ -78,6 +84,7 @@ The scatter plot below shows the relationship between drivers’ years of experi
 The heatmap further confirmed that there is a low correlation among the various variables in the dataset, indicating that none of the features are strongly related to one another.
 
 The heat map below show correlation between the numerical variables of the drivers’ dataset.
+
 
 ![image](https://github.com/user-attachments/assets/eec9f5df-72f2-4113-bc53-741f60d2a5a0)
 
