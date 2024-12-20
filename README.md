@@ -19,16 +19,16 @@ The project utilized Python for various stages of data analysis, including data 
 In this project, the dataset was thoroughly cleaned and preprocessed to ensure its quality before conducting any analysis. The following steps were performed as part of the data cleaning process:
 
 #### 1. Checking for Duplicates:
-We checked for duplicate records in the dataset using the duplicated() method. The result indicated that there are no duplicates in the dataset, confirming that each row represents a unique driver.
+We checked for duplicate records in the dataset and the result indicated that there are no duplicates in the dataset, confirming that each row represents a unique driver.
 
 #### 2. Checking for Missing Values:
-Missing values were checked using the isnull() method. The analysis revealed that there are no missing values in any of the columns, ensuring that the dataset is complete and ready for further analysis.
+Missing values were checked and the analysis revealed that there are no missing values in any of the columns, ensuring that the dataset is complete and ready for further analysis.
 
 #### 3. Checking Data Types:
-The data types of each column were verified using the dtypes method. All columns have the appropriate data types, ensuring that the dataset is properly structured for analysis. For example, numerical values (such as age, years of experience, and ratings) are correctly recognized as numerical data types.
+The data types of each column were verified and all columns had the appropriate data types, ensuring that the dataset is properly structured for analysis.
 
 #### 4. Dataset Information:
-The info() method was used to gather an overview of the dataset, which confirmed that it contains 100 rows and 7 columns. All columns contain valid data, and the dataset is free from issues like incorrect data types or missing values.
+We gathered an overview of the dataset, which confirmed that it contains 100 rows and 7 columns. All columns contain valid data, and the dataset is free from issues like incorrect data types or missing values.
 
 #### 5. Shape of the Dataset:
 The dataset's shape was checked using the shape method, which confirmed that it contains 100 rows and 7 columns, providing a manageable size for analysis.
@@ -40,11 +40,17 @@ In this project, the exploratory data analysis (EDA) was performed to better und
 #### 1. Distribution of Driver’s Age:
 A QQ plot of the drivers' age revealed that the data is not normally distributed, as the points did not align with the diagonal line. This suggests that the distribution of ages does not follow a typical bell curve.
 
+![image](https://github.com/user-attachments/assets/eb4cfaab-c0c9-49a0-b491-b6bfb792ada1)
+
 #### 2. Years of Experience:
 The box plot for years of experience showed a left-skewed distribution, indicating that a larger number of drivers have fewer years of experience. Additionally, the plot did not reveal any outliers, suggesting that the data on experience is relatively consistent.
 
+![image](https://github.com/user-attachments/assets/35c3cb0f-b410-4df1-8409-7132b7b44813)
+
 #### 3. Average Rating Distribution:
-The histogram and KDE (Kernel Density Estimate) of the average ratings indicated that most drivers have ratings between 4.8 and 5.0, with a non-symmetric and non-bell-shaped distribution. This indicates that the ratings data is not normally distributed.
+The histogram and KDE of the average ratings indicated that most drivers have ratings between 4.8 and 5.0, with a non-symmetric and non-bell-shaped distribution. This indicates that the ratings data is not normally distributed.
+
+![image](https://github.com/user-attachments/assets/197392ce-882a-41b9-a67b-697c26294cdb)
 
 #### - Skeweness
 The skewness of the average ratings is negative, suggesting that the data is skewed to the left (with more drivers having ratings on the higher end).
@@ -54,10 +60,18 @@ The kurtosis value is also negative, indicating that the distribution is platyku
 #### 4. Scatter Plot & Correlation:
 The scatter plot between age and years of experience revealed no clear linear relationship between these two variables. This suggests that there is no direct correlation between a driver’s age and the number of years of experience they have.
 
+![image](https://github.com/user-attachments/assets/c02a7bb9-b81b-49ce-9954-825723b3ea8a)
+
 The heatmap further confirmed that there is a low correlation among the various variables in the dataset, indicating that none of the features are strongly related to one another.
+
+![image](https://github.com/user-attachments/assets/eec9f5df-72f2-4113-bc53-741f60d2a5a0)
+
 
 #### 5.Active Status Distribution:
 A pie chart displayed the proportion of active versus inactive drivers, revealing that 55% of the drivers are active, while 45% are inactive, providing insight into the current activity levels within the dataset.
+
+![image](https://github.com/user-attachments/assets/33e056c3-cacc-4148-b4a3-1b38537a10a4)
+
 
 ## Data Analysis
 
