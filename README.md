@@ -9,6 +9,8 @@ By analyzing the data visually and statistically, this project seeks to uncover 
 
 ## Data Source
 
+The data that was used in this study is Drivers data posted on Kaggle, an online portal for community of data scientists. The dataset provides insights into drivers' performance and demographic characteristics, with key attributes such as the number of years of experience and the average ratings given to each driver. It also categorizes drivers as "Active" or "Inactive.". The data is free from missing values, ensuring its readiness for analysis. It is structured with a mix of numerical and categorical columns, allowing for various statistical tests and comparisons.
+
 ## Tools
 
 
