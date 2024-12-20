@@ -109,16 +109,16 @@ The below pie chart shows the distribution of drivers’ active status
 ## Data Analysis
 
 
-The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing. The key findings and conclusions are as follows:
+The data analysis in this project involved a detailed examination of the drivers' dataset through both descriptive statistics and hypothesis testing. 
 
-Statistical Analysis:
+#### Hypothesis Testing:
 
-A hypothesis test was conducted to evaluate whether drivers aged 40 and above have higher average ratings compared to those under 40. The null hypothesis proposed that older drivers would have higher ratings, while the alternative hypothesis suggested the opposite.
-The results of the t-test showed a t-statistic of 2.13 and a p-value of 0.035, which is below the significance level of 0.05. This led to the rejection of the null hypothesis, suggesting that there is no significant difference in average ratings between drivers aged 40 and above and those below 40.
-Key Insights:
+A hypothesis test was conducted to evaluate whether drivers aged 40 and above have higher average ratings compared to those under 40. 
 
-The analysis revealed that while most drivers have high ratings, there is no direct evidence to suggest that older drivers consistently perform better in terms of ratings.
-The distribution of experience years showed that many drivers have a relatively high level of experience, though the skewness suggests a prevalence of drivers with fewer years of experience.
+- Null hypothesis: Drivers of age 40 and above have a high Average rating compared to drivers below 40 years.
+- Alternative hypothesis:  Drivers of age 40 and above do not have high average rating compared to drivers below 40 years
+  
+
 
 ## Findings
 
@@ -130,8 +130,10 @@ Other variables in the dataset also show low correlations, indicating that drive
 
 - Hypothesis Testing:
 
-A hypothesis test comparing the average ratings of drivers aged 40 and above with those below 40 showed that there is no significant difference between the two groups. The null hypothesis, which suggested that older drivers would have higher ratings, was rejected based on the test results (t-statistic = 2.13, p-value = 0.035). This finding suggests that age does not significantly affect a driver's rating.
+The results of the t-test showed a t-statistic of 2.13 and a p-value of 0.035, which is below the significance level of 0.05. This led to the rejection of the null hypothesis, suggesting that there is no significant difference in average ratings between drivers aged 40 and above and those below 40.
 
+The analysis revealed that while most drivers have high ratings, there is no direct evidence to suggest that older drivers consistently perform better in terms of ratings.
+The distribution of experience years showed that many drivers have a relatively high level of experience, though the skewness suggests a prevalence of drivers with fewer years of experience.
 
 ## Conclusion
 
